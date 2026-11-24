@@ -33,4 +33,4 @@ assert clasificar_oee(100) == 'Clase mundial'
 assert clasificar_oee(60) == 'Aceptable'
 assert clasificar_oee(0) == 'Bajo'
 
-print('Las clasificaciones pasaron al prueba')
+print('Las clasificaciones pasaron las prueba')
