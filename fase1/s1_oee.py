@@ -5,7 +5,7 @@ def calcular_oee(disp, rent, cal):
     # cal: calidad [0-1] debe estar entre 0 y 1
 
     if not 0 <= disp <= 1:
-        raise ValueError('La disponibilidad debe estra entre 0 y 1')
+        raise ValueError('La disponibilidad debe estar entre 0 y 1')
     if not 0 <= rent <= 1:
         raise ValueError('La rentabilidad debe estar entre 0 y 1')
     if not 0 <= cal <= 1:
@@ -33,4 +33,4 @@ assert clasificar_oee(100) == 'Clase mundial'
 assert clasificar_oee(60) == 'Aceptable'
 assert clasificar_oee(0) == 'Bajo'
 
-print('Las clasificaciones pasaron las prueba')
+print('Las clasificaciones del OEE pasaron las prueba')
