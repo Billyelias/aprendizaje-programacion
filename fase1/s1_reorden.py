@@ -1,5 +1,5 @@
 
-def punto_reorden (d, lt, ss):
+def punto_reorden(d, lt, ss):
     if d <= 0:
         raise ValueError('d debe ser mayor a 0')
     if lt <= 0:
