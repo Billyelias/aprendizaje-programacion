@@ -1,5 +1,9 @@
 
 def punto_reorden(d, lt, ss):
+    # d: demanda diaria [u/dia], debe ser > 0
+    # lt: lead time [dias], debe ser > 0
+    # ss: stock de seguridad [u], puede ser 0 o mayor
+
     if d <= 0:
         raise ValueError('d debe ser mayor a 0')
     if lt <= 0:
